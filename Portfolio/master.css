@@ -1,0 +1,42 @@
+.title{
+  /* font-family: 'Montserrat 300', sans-serif; */
+  font-family: 'Allerta', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.enter{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Allerta', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  border-style: solid;
+  width: 125px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50px, -40px);
+
+}
+
+.instagram{
+  top:75%;
+  
+}
+
+
+h2{
+  margin:10px auto;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+
+}
