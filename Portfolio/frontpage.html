@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="master.css">
     <title>KATIE CHAN</title>
-    <!-- CURSOR!!!!!!!! --><!-- THIS IS YOUR CURSOR CODE!! --><script language="javascript">
+    <!-- CURSOR!!!!!!!! --><!-- THIS IS YOUR CURSOR CODE!! -->
+    <script language="javascript">
     var text='explore!';
     var delay=30; // speed of trail
     var Xoff=16; // pixel count from the left of the cursor (- values go to left)
@@ -22,7 +23,7 @@
     var y1=-1000;
     var t='';
     for(i=1;i<=text.length;i++){
-    t+=(ns4)? '<layer left="0" top="-100" width="'+txtw+'" name="txt'+i+'" height="1">' : '<div id="txt'+i+'" style="position:absolute; top:-100px; left:0px; height:1px; width:'+txtw+'; visibility:visible;">';
+    t+=(ns4)? '<layer left="0" top="-100" width="'+txtw+'" name="txt'+i+'" height="1">' : '<div class="letter" id="txt'+i+'" style="position:absolute; top:-100px; left:0px; height:1px; width:'+txtw+'; visibility:visible;">';
     t+=beghtml+text[i-1]+endhtml;
     t+=(ns4)? '</layer>' : '</div>';
     }
@@ -75,6 +76,15 @@
   <body>
 
 <div class="header">
+  <div id="myNav" class="overlay">
+    <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+    <div class="overlay-content">
+      <a href="about.html"> ABOUT ME </a>
+      <a href="2020gallery.html">2020</a>
+      <a href="2019gallery.html">2019</a>
+      <a href="2018gallery.html">2018</a>
+    </div>
+  </div>
 <!-- HAMBURGER MENU -->
   <div class="container" onclick="myFunction(this)">
     <div class="bar1"></div>
@@ -83,23 +93,18 @@
   </div>
 
 
-
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="about.html"> ABOUT ME </a>
-    <a href="#">2020</a>
-    <a href="#">2019</a>
-    <a href="#">2018</a>
-  </div>
-</div>
-
-
 <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span> -->
 
 <script>
+var open = false;
 function openNav() {
+  if(open){
+    document.getElementById("myNav").style.height = "0vh";
+    open = false;
+  } else{
   document.getElementById("myNav").style.height = "100vh";
+  open = true;
+  }
 }
 
 function closeNav() {
@@ -129,9 +134,42 @@ openNav();
     </div>
 
     <div class="explore2020">
-      <a href="#">EXPLORE 2020</a>
+      <a href="2020gallery.html">
+        <h2>EXPLORE 2020</h2>
+      </a>
     </div>
+</div> <!--wrapper div closer -->
+
+<div class="wrapper2">
+  <div class="nineteen">
+    <img src = "Media/2019.jpg" width="450">
+  </div>
+
+  <div class="year2">
+    <p>2019</p>
+  </div>
+
+  <div class="explore2019">
+    <a href="2019gallery.html"> <h3>EXPLORE 2019</h3> </a>
+  </div>
 </div>
+
+<div class = "wrapper3">
+  <div class="eighteen">
+    <img src = "Media/2018.jpg" width="450">
+  </div>
+
+  <div class="year3">
+    <p>2018</p>
+  </div>
+
+  <div class="explore2018">
+    <a href="2018gallery.html">
+    <h4>EXPLORE 2018</h4>
+  </a>
+  </div>
+</div>
+
 
 
   </body>

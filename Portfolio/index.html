@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro:700&display=swap" rel="stylesheet">
 
     <!-- CURSOR!!!!!!!! --><!-- THIS IS YOUR CURSOR CODE!! --><script language="javascript">
-    var text='hi professor fanghane! i love this class!';
+    var text="welcome! I'm so happy you're here :^)";
     var delay=30; // speed of trail
     var Xoff=16; // pixel count from the left of the cursor (- values go to left)
     var Yoff=0; // pixel count from the top of the cursor (- values go up)
@@ -27,7 +27,7 @@
     var y1=-1000;
     var t='';
     for(i=1;i<=text.length;i++){
-    t+=(ns4)? '<layer left="0" top="-100" width="'+txtw+'" name="txt'+i+'" height="1">' : '<div id="txt'+i+'" style="position:absolute; top:-100px; left:0px; height:1px; width:'+txtw+'; visibility:visible;">';
+    t+=(ns4)? '<layer left="0" top="-100" width="'+txtw+'" name="txt'+i+'" height="1">' : '<div class="letter" id="txt'+i+'" style="position:absolute; top:-100px; left:0px; height:1px; width:'+txtw+'; visibility:visible;">';
     t+=beghtml+text[i-1]+endhtml;
     t+=(ns4)? '</layer>' : '</div>';
     }
