@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <title>AMST</title>
+    <link rel="stylesheet" href="https://use.typekit.net/tia1tmo.css">
+    <link rel="icon" href="Media/2018.jpg" type="image/gif" sizes="16x16">
+  </head>
+  <body>
+    <div class="header">
+      <div id="myNav" class="overlay">
+        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+        <div class="overlay-content">
+          <a href="about.html"> ABOUT ME </a>
+          <a href="2020gallery.html">2020</a>
+          <a href="2019gallery.html">2019</a>
+          <a href="2018gallery.html">2018</a>
+        </div>
+      </div>
+    <!-- HAMBURGER MENU -->
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+
+    <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span> -->
+
+    <script>
+    var open = false;
+    function openNav() {
+      if(open){
+        document.getElementById("myNav").style.height = "0vh";
+        open = false;
+      } else{
+      document.getElementById("myNav").style.height = "100vh";
+      open = true;
+      }
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0vh";
+      document.getElementsByClassName('container')[0].classList.toggle("change");
+    }
+
+    function myFunction(x) {
+
+    x.classList.toggle("change");
+    openNav();
+    }
+    </script>
+
+    <div class="name">
+    <a href = "frontpage.html"> <h1> KATIE CHAN.</h1> </a>
+    </div>
+    </div>
+
+    <div class="amsttitle">
+      <p><b>HISTORIES OF EMPIRE:BUDDAE JJIGAE</b></p>
+      <p> <i>AMST 220: The Making of Asian America </i></p>
+    </div>
+
+  <div class="amstvid">
+     <!-- <iframe width="800" height="555" src="https://www.youtube.com/embed/6j-Ao984AK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+  </div>
+
+  <div class="amstphoto">
+    <img src="Media/amst2.jpg" width="450">
+  </div>
+
+
+  <div class="amst1">
+    <p> <b>"Histories of Empire: Buddae Jjijae" was a short film created for my AMST 220: The Making of Asian America class.
+    Inspired by Tasty videos, my group decided to research and speak about how food has played a role in building empires, specifically
+  looking at buddae jjigae or "Korea Army Base Stew"</b>
+  </div>
+  <div class="amst2">
+    <p> The film required a lot of preparation and this came in the form of researching, gathering ingredients, to the actual production. None of us
+      were film majors or had any previous experience with filming, so it was a huge learning curve for us.
+      <br/>
+      <br/>
+    In the process, we learned the history of the dish itself. Buddae Jjigae is just one example of how US military occupation
+    impacted the lives of those across Asia. These were militarized dishes that were created out of
+    necessity - similar to dishes like pork sisig in the Philippines - but their modern-day legacy is often forgotten.
+      <br/>
+      <br/>
+    This was a serious feat of coordination and collaboration, but I enjoyed every step of making it. We actually ended up winning
+  our classes (very informal) film festival. I hope to create similar content in the future to serve as educational tools when thinking
+  about imperalism and empires.</p>
+  </div>
+
+  </body>
+</html>

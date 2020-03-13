@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <link rel="icon" href="Media/2018.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://use.typekit.net/tia1tmo.css">
+    <title>Suburbia</title>
+  </head>
+  <body>
+    <div class="header">
+      <div id="myNav" class="overlay">
+        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+        <div class="overlay-content">
+          <a href="about.html"> ABOUT ME </a>
+          <a href="2020gallery.html">2020</a>
+          <a href="2019gallery.html">2019</a>
+          <a href="2018gallery.html">2018</a>
+        </div>
+      </div>
+    <!-- HAMBURGER MENU -->
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span> -->
+
+    <script>
+    var open = false;
+    function openNav() {
+      if(open){
+        document.getElementById("myNav").style.height = "0vh";
+        open = false;
+      } else{
+      document.getElementById("myNav").style.height = "100vh";
+      open = true;
+      }
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0vh";
+      document.getElementsByClassName('container')[0].classList.toggle("change");
+    }
+
+    function myFunction(x) {
+
+    x.classList.toggle("change");
+    openNav();
+    }
+    </script>
+
+  </div>
+
+    <div class="name">
+    <a href = "frontpage.html"> <h1> KATIE CHAN.</h1> </a>
+    </div>
+
+
+    <div class="yvtitle">
+      <p><b>SUBURBIA</b></p>
+      <p> <i>Published in 2019 Young Voices Magazine </i></p>
+    </div>
+
+  <div class="cover">
+    <img src="Media/yvcover.png" width="450px">
+  </div>
+
+    <div class="spread">
+        <img src="Media/spread1.png" width="400">
+        <img src="Media/spread2.png" width="400">
+    </div>
+
+    <div class="yv1">
+      <p> <b> The Toronto Public Library Young Voices Magazine is a literary-arts magazine that is published annually - created and curated
+      by Toronto teens. </b>
+    </div>
+
+    <div class="yv2">
+      <p>
+        My piece is entitle "Suburbia" and it is about the neighborhood I grew up in and how it has shaped me
+        to be the person I am today. This was originally written as a supplemental essay for a college (that I did not get accepted too).
+        However, I was really proud of the piece and it is my first piece of published literature.
+        <br/>
+        <br/>
+        Suburbia anywhere has a reputation of being boring and identical everywhere you go. However, this piece is really
+        inspired by the little things that make it special. This piece required a lot of introspection to think about <thead>
+          places and people that molded me into the person I am today, and identifying these aspects made me all the more grateful
+          to have grown up rooted in a diverse community - one that I still feverently call home today.
+        </thead>
+        <br/>
+      </p>
+    </div>
+
+  </body>
+</html>

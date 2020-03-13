@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <link rel="icon" href="Media/2018.jpg" type="image/gif" sizes="16x16">
+    <title>Roosevelt</title>
+  </head>
+  <body>
+    <div class="header">
+      <div id="myNav" class="overlay">
+        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+        <div class="overlay-content">
+          <a href="about.html"> ABOUT ME </a>
+          <a href="2020gallery.html">2020</a>
+          <a href="2019gallery.html">2019</a>
+          <a href="2018gallery.html">2018</a>
+        </div>
+      </div>
+    <!-- HAMBURGER MENU -->
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+
+    <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span> -->
+
+    <script>
+    var open = false;
+    function openNav() {
+      if(open){
+        document.getElementById("myNav").style.height = "0vh";
+        open = false;
+      } else{
+      document.getElementById("myNav").style.height = "100vh";
+      open = true;
+      }
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0vh";
+      document.getElementsByClassName('container')[0].classList.toggle("change");
+    }
+
+    function myFunction(x) {
+
+    x.classList.toggle("change");
+    openNav();
+    }
+    </script>
+
+    </div>
+
+    <div class="name">
+    <a href = "frontpage.html"> <h1> KATIE CHAN.</h1> </a>
+    </div>
+
+    <div class="rootitle">
+      <p><b>PLANTING SEEDS TOWARDS HEALTHY EATING HABITS</b></p>
+      <p> <i>For the Roosevelt Network @ USC </i></p>
+    </div>
+
+  <div class="reviewcover">
+    <img src="Media/roologo.jpg" width="400px">
+  </div>
+
+    <div class="roospread">
+        <img src="Media/roos1.png" width="400">
+        <<img src="Media/roos2.png" width="400">
+    </div>
+
+    <div class="roo1">
+      <p> <b> The Roosevelt Network at USC is a student-run, progressive policy think tank. We focus on research, policy, and
+      advocacy</b>
+    </div>
+    <div class="roo2">
+        The Roosevelt Network at USC was recently reactivated last year, under the direction of Tingyee Chang'19. Under Tingyee, the club sustained its first year back and I was part of that original cohort of policy analysts. That year, I wrote policy
+        on combatting obesity in low-income neighborhoods by mandating Title 1 elementary schools in LAUSD to implement edible gardens into
+        the curriculum.
+        <br/>
+        <br/>
+        I entitled the piece Planting Seeds Towards Healthy Eating Habits: Widespread Integration of Edible Gardens
+        in Title 1 LA Elementary Schools. It proposed the use of LAUSD's bond-funded program SEEDS to help with the
+        implementation of food gardens in elementary school. This policy memo was published in USC's first and only
+        undergraduate policy journal, The Roosevelt Review.
+        <br/>
+        <br/>
+    </div>
+
+
+  </body>
+</html>

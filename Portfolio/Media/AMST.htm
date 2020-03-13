@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)file:///Users/katiechan/Desktop/kchan2000.github.io/Portfolio/amst.html -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" href="./AMST_files/master.css">
+    <title>AMST</title>
+  </head>
+  <body>
+    <div class="header">
+      <div id="myNav" class="overlay">
+        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+        <div class="overlay-content">
+          <a href="file:///Users/katiechan/Desktop/kchan2000.github.io/Portfolio/about.html"> ABOUT ME </a>
+          <a href="file:///Users/katiechan/Desktop/kchan2000.github.io/Portfolio/2020gallery.html">2020</a>
+          <a href="file:///Users/katiechan/Desktop/kchan2000.github.io/Portfolio/2019gallery.html">2019</a>
+          <a href="file:///Users/katiechan/Desktop/kchan2000.github.io/Portfolio/2018gallery.html">2018</a>
+        </div>
+      </div>
+    <!-- HAMBURGER MENU -->
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+
+    <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span> -->
+
+    <script>
+    var open = false;
+    function openNav() {
+      if(open){
+        document.getElementById("myNav").style.height = "0vh";
+        open = false;
+      } else{
+      document.getElementById("myNav").style.height = "100vh";
+      open = true;
+      }
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0vh";
+      document.getElementsByClassName('container')[0].classList.toggle("change");
+    }
+
+    function myFunction(x) {
+
+    x.classList.toggle("change");
+    openNav();
+    }
+    </script>
+
+    <div class="name">
+    <a href="file:///Users/katiechan/Desktop/kchan2000.github.io/Portfolio/frontpage.html"> <h1> KATIE CHAN.</h1> </a>
+    </div>
+    </div>
+
+    <div class="amstphoto">
+      <img src="./AMST_files/amst2.jpg" width="800">
+    </div>
+
+  <div class="amstvid">
+    <iframe width="800" height="555" src="./AMST_files/6j-Ao984AK8.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  </div>
+
+
+  
+
+</body></html>

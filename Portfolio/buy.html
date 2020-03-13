@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <link rel="icon" href="Media/2018.jpg" type="image/gif" sizes="16x16">
+    <title>Buy,Buy,Buy</title>
+  </head>
+  <body>
+
+    <div class="header">
+      <div id="myNav" class="overlay">
+        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+        <div class="overlay-content">
+          <a href="about.html"> ABOUT ME </a>
+          <a href="2020gallery.html">2020</a>
+          <a href="2019gallery.html">2019</a>
+          <a href="2018gallery.html">2018</a>
+        </div>
+      </div>
+    <!-- HAMBURGER MENU -->
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+
+    <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span> -->
+
+    <script>
+    var open = false;
+    function openNav() {
+      if(open){
+        document.getElementById("myNav").style.height = "0vh";
+        open = false;
+      } else{
+      document.getElementById("myNav").style.height = "100vh";
+      open = true;
+      }
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0vh";
+      document.getElementsByClassName('container')[0].classList.toggle("change");
+    }
+
+    function myFunction(x) {
+
+    x.classList.toggle("change");
+    openNav();
+    }
+    </script>
+
+    <div class="name">
+    <a href = "frontpage.html"> <h1> KATIE CHAN.</h1> </a>
+    </div>
+  </div>
+
+  <div class="buytitle">
+    <p><b>BUY, BUY, BUY</b></p>
+    <p> <i>IB HL Visual Art</i></p>
+  </div>
+
+<div class="final">
+  <img src="Media/process2.jpg" width="450px">
+</div>
+
+  <div class="artshow">
+      <img src="Media/show.png" width="650">
+  </div>
+
+  <div class="buy1">
+    <p> <b> "Buy, Buy, Buy" is a piece that I created as a part of my IB Higher Level Visual Art portfolio. It
+      addresses our society's extreme consumer behaviors.</b> </p>
+  </div>
+  <div class="buy2">
+      The process for this piece happened very naturally, and progressed from drawing, to digital, to large scale painting.
+      "Buy, Buy, Buy" represents our society's wants rather than needs and how that manifests into mass consumption of, often,
+      materialistic goods.
+      <br/>
+      <br/>
+    </div>
+
+  <div class ="buy3">
+    <img src ="Media/draw.png" width="400px">
+  </div>
+
+  <div class="buy4">
+    <p>
+      This was the first time I had ever done such a large scale painting. I found it very difficult
+      to keep the color flat and even across large scretches. In the end, I definitely preferred the
+      digital piece better than the painted, but it was good to get experience in a medium that I have
+      never tried before.
+      <br/>
+      <br/>
+     </p>
+  </div>
+
+  </body>
+</html>

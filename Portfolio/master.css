@@ -1,11 +1,10 @@
 .title{
-  /* font-family: 'Montserrat 300', sans-serif; */
   font-family: 'Allerta', sans-serif;
-  text-align: center;
-  font-size: 20px;
   color: white;
-  cursor: pointer;
+  margin-left: 575px;
+  letter-spacing: 3px;
 }
+
 
 .header{
   overflow: hidden;
@@ -50,31 +49,29 @@
   color:#ffffff;
 }
 
-
 .explore2020 {
   font-family: 'Maven Pro';
-  font-size: 10px;
   border-style: solid;
   width: 200px;
   position: absolute;
-  top:80%;
-  border: white;
-  color: white;
   text-align: center;
   display: block;
   font-size: 15px;
   margin-left: 235px;
+  margin-top: 620px;
   cursor: pointer;
   border: 3px solid black;
-  z-index: 999;
   text-decoration: none;
 }
 
-
 .explore2020 a:visited{
   color:black;
-  text-decoration:none;
 }
+
+.explore2020 a:link{
+  text-decoration: none;
+}
+
 
 h2{
   margin:10px auto;
@@ -118,21 +115,23 @@ h2{
   text-align: center;
 }
 
-.name{
+.name {
   font-family: 'Allerta', sans-serif;
   font-size: 15px;
-  text-align: left;
   color: black;
   float: left;
   cursor: pointer;
   margin-top: 10px;
   margin-left: 30px;
-  text-decoration: none;
+  display: block;
 
 }
-.name a:visited{
-  color:#000;
+.name a:link{
   text-decoration: none;
+}
+
+.name a:visited{
+  color: #000;
 }
 
 .bar1, .bar2, .bar3 {
@@ -229,66 +228,75 @@ h2{
 }
 
 .year2{
-  font-family: 'Maven Pro';
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 120px;
-  margin-left: 857px;;
+  margin-left: 850px;;
   margin-top: -745px;
   position: absolute;
 }
 
-.explore2019{
+.explore2019 {
+  font-family: 'Maven Pro';
+  border-style: solid;
   width: 200px;
-  margin-top: -125px;
+  position: absolute;
   text-align: center;
   display: block;
+  font-size: 17px;
   margin-left: 235px;
-  border: 3px;
-  border-style: solid;
+  margin-top: -120px;
+  cursor: pointer;
+  border: 3px solid black;
   text-decoration: none;
 }
 
-.explore2019 h3{
-  font-family: 'Maven Pro';
-  font-size: 20px;
+.explore2019 a:visited{
+  color:black;
 }
 
-.explore2019 a visited{
+.explore2019 a:link{
   text-decoration: none;
-  color: black;
 }
 
 .eighteen{
   margin-left:33.5%;
-  margin-top: 150px;
+  margin-top: 90px;
   cursor: pointer;
   z-index: -1;
 }
 
 .year3{
-  font-family: 'Maven Pro';
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: bold;
   font-size: 120px;
-  margin-left: 857px;;
+  margin-left: 850px;;
   margin-top: -745px;
   position: absolute;
 }
 
-.explore2018{
+
+.explore2018 {
+  font-family: 'Maven Pro';
+  border-style: solid;
   width: 200px;
-  margin-top: -125px;
+  position: absolute;
   text-align: center;
   display: block;
+  font-size: 20px;
   margin-left: 235px;
-  border: 3px;
-  border-style: solid;
+  margin-top: -120px;
+  cursor: pointer;
   text-decoration: none;
 }
 
-.explore2018 h4{
-  font-family: 'Maven Pro';
-  font-size: 20px;
+.explore2018 a:visited{
+  color:black;
+}
+
+.explore2018 a:link{
+  text-decoration: none;
 }
 
 
@@ -301,7 +309,7 @@ h2{
   }
 
 .aboutme{
-  font-family: 'Maven Pro';
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 80px;
   margin-left: 700px;
@@ -312,13 +320,16 @@ h2{
 }
 
 .aboutme2{
-  font-family: 'Maven Pro';
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
   font-size: 20px;
   margin-left: 780px;
   margin-right: 150px;
   margin-top: 260px;
   position: fixed;
-  cursor: pointer;
+  cursor: help;
+  z-index: -2;
 }
 
 .iglogo{
@@ -342,37 +353,44 @@ h2{
 }
 
 .year1{
-  font-family: 'Maven Pro';
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-size: 120px;
   position: absolute;
   z-index: 2;
-  margin-left: 60%;
+  margin-left: 848px;
   cursor: pointer;
+}
+
+.year1 img{
+  position: absolute;
+  margin-top: -267px;
+  margin-left:-14px;
 }
 
 /* 2020 GALLERY */
 .gallery1{
   font-family: 'Maven Pro';
   font-size: 120px;
-  margin-right: 450px;
+  margin-right: 500px;
   font-weight: bold;
   float: right;
   overflow: auto;
+  cursor: pointer;
 }
 
 .genshe{
   margin-left: 30px;
-  position: fixed;
+  position: absolute;
   margin-top: 330px;
   display: block;
-  z-index: -1;
+  z-index: -2;
 }
 
 .gscaption{
-  position: fixed;
+  position: absolute;
   margin-left: 30px;
-  margin-top: 665px;
+  margin-top: 575px;
   font-family: 'Maven Pro';
 }
 
@@ -394,19 +412,66 @@ h2{
 }
 
 /* GENSHE 2020 */
-.gspics{
+.gstitle{
+  font-family: 'Maven Pro';
+  font-size: 28px;
   margin-top: 120px;
+  margin-left: 750px;
+  margin-right: 100px;
+  position: absolute;
+  z-index: -1;
 }
 
 .mission{
-  margin-left: 300px;
+  margin-left: 250px;
+  margin-top: 150px;
+  z-index: -2;
 }
 
-.team {
-  margin-left: 500px;
-  /* transform: rotate(270deg); */
+.team{
+  margin-left: 425px;
+  margin-top: -40px;
+  z-index:1;
+
 }
 
+.gs1{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  margin-left: 425px;
+  margin-right: 300px;
+  cursor: pointer;
+}
+
+.gs2{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  margin-left: 450px;
+  margin-right: 350px;
+  cursor: pointer;
+}
+
+.gs3{
+  margin-left: 350px;
+}
+
+.gs4{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  margin-left: 450px;
+  margin-right: 350px;
+  cursor: pointer;
+}
+
+.gs5{
+  margin-left: 350px;
+}
 
 /* 2019 GALLERY */
 .gallery2{
@@ -416,21 +481,252 @@ h2{
   font-weight: bold;
   float: right;
   overflow: auto;
+  cursor: pointer;
 }
 
 .amst220{
   margin-left: 30px;
-  position: fixed;
+  position: absolute;
   margin-top: 330px;
   display: block;
   z-index: -1;
 }
 
 .amstcaption{
-  position: fixed;
+  position: absolute;
   margin-left: 30px;
   margin-top: 575px;
   font-family: 'Maven Pro';
+}
+
+.ontopamst{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.amst220:hover .ontopamst{
+  opacity: 0.3;
+}
+
+.yv{
+  position: absolute;
+  margin-left: 480px;
+  margin-top: 700px;
+  z-index: -1;
+}
+
+.ontopyv {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.yv:hover .ontopyv{
+  opacity: 0.3;
+}
+
+.roosevelt{
+  margin-left: 30px;
+  position: absolute;
+  margin-top: 700px;
+  display: block;
+  z-index: -1;
+}
+
+.roocaption{
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 940px;
+  font-family: 'Maven Pro';
+}
+
+.ontoproo{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.roosevelt:hover .ontoproo{
+  opacity: 0.3;
+}
+
+
+/* ROOSEVELT PAGE */
+
+.rootitle{
+  font-family: 'Maven Pro';
+  font-size: 28px;
+  margin-top: 220px;
+  margin-left: 690px;
+  margin-right: 120px;
+  position: absolute;
+  z-index: -1;
+}
+
+.reviewcover{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 200px;
+  z-index: -1;
+}
+
+.roospread{
+  position: absolute;
+  margin-left: 380px;
+  margin-top: 500px;
+  z-index:-1;
+}
+
+.roo1{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  margin-left: 425px;
+  margin-right: 300px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 1000px;
+}
+
+.roo2{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  margin-left: 450px;
+  margin-right: 350px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 1075px;
+}
+
+
+/* AMST PAGE */
+.amsttitle{
+  font-family: 'Maven Pro';
+  font-size: 28px;
+  margin-top: 220px;
+  margin-left: 775px;
+  margin-right: 110px;
+  position: absolute;
+  z-index: -1;
+}
+
+.amstphoto{
+  margin-left: 300px;
+  margin-top: 100px;
+  z-index:-2;
+  position: absolute;
+}
+
+.amstvid{
+  margin-left: 340px;
+  margin-top: 600px;
+  position: absolute;
+  z-index: -1;
+}
+
+.amst1{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  margin-left: 425px;
+  margin-right: 300px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 1190px;
+}
+
+.amst2{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  margin-left: 450px;
+  margin-right: 350px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 1300px;
+}
+
+.yvcaption{
+  position: absolute;
+  margin-left: 490px;
+  margin-top: 940px;
+  font-family: 'Maven Pro';
+}
+
+/* YOUNG VOICES PAGE */
+.yvtitle{
+  font-family: 'Maven Pro';
+  font-size: 28px;
+  margin-top: 250px;
+  margin-left: 775px;
+  margin-right: 110px;
+  position: absolute;
+  z-index: -1;
+}
+
+.cover{
+  margin-left: 300px;
+  margin-top: 100px;
+  z-index:-2;
+  position: absolute;
+}
+
+.spread{
+  position: absolute;
+  margin-left: 425px;
+  margin-top: 650px;
+  z-index:-1;
+}
+
+.yv1{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  margin-left: 425px;
+  margin-right: 300px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 1170px;
+}
+
+.yv2{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  margin-left: 450px;
+  margin-right: 350px;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 1225px;
 }
 
 
@@ -439,8 +735,112 @@ h2{
 .gallery3{
   font-family: 'Maven Pro';
   font-size: 120px;
-  margin-right: 450px;
+  margin-right: 540px;
   font-weight: bold;
   float: right;
   overflow: auto;
+}
+
+.buy{
+  margin-left: 30px;
+  position: absolute;
+  margin-top: 330px;
+  display: block;
+  z-index: -1;
+}
+
+.ontopbuy{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff799;
+}
+
+.buy:hover .ontopbuy{
+  opacity: 0.3;
+}
+
+.buycaption{
+  position: fixed;
+  margin-left: 30px;
+  margin-top: 550px;
+  font-family: 'Maven Pro';
+}
+
+/* buy page */
+
+.buytitle{
+  font-family: 'Maven Pro';
+  font-size: 28px;
+  margin-top: 170px;
+  margin-left: 750px;
+  margin-right: 100px;
+  position: absolute;
+  z-index: -1;
+}
+
+.final{
+  margin-left: 250px;
+  margin-top: 150px;
+  z-index: -2;
+}
+
+.artshow{
+  margin-left: 425px;
+  margin-top: -20px;
+  z-index:1;
+}
+
+.buy1{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  margin-left: 425px;
+  margin-right: 300px;
+  cursor: pointer;
+}
+
+.buy2{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  margin-left: 450px;
+  margin-right: 350px;
+  cursor: pointer;
+}
+
+.buy3{
+  margin-left: 540px;
+}
+
+.buy4{
+  font-family: niveau-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  margin-left: 450px;
+  margin-right: 350px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer{
+  margin-left:auto;
+  margin-right:auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 95%;
+  color: white;
+  text-align: right;
+  z-index: -2;
 }
