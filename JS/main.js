@@ -1,16 +1,34 @@
-$document.ready(function(){
+// variables are like a box, the following thing is the variable
 
-var allPs = $("p");
-console.log(allPs);
+var life = 0;
 
-var classp = $".paragraph1");
-console.log(classp);
 
-var idp= ("ptag");
-console.log(idp);
+$(document).ready(function () {
 
-allPs.html("hi this is my new text")
+  $(".scene").hide();
+  $("#s1").show();
 
+  $("#option1").click(function(){
+      $("#s1").hide();
+      $("#s2").show();
+      life = life +1;
+      $("#life").html(life);
+
+
+  });
+
+  // var++ is the same as var=var +1
+
+
+
+  $("#option2").click(function(){
+      $("#s1").hide();
+      $("#s3").show();
+
+  });
 
 
 });
+
+// . and # to call classes and // ids respectiviley
+// reads top to bottom, so whatever is at the top overrides what is below it
