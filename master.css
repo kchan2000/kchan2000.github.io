@@ -3,6 +3,7 @@
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 65px;
+  color: black;
 
 }
 
@@ -13,4 +14,36 @@
   display: flex;
   flex-direction: column;
   margin-left: 20px;
+  position: absolute;
+  text-decoration: none;
+}
+
+.projects{
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover{
+  color: #da86e3;
+}
+
+#myVideo{
+position: absolute;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+z-index: -10;
 }
