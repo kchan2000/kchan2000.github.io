@@ -2,38 +2,87 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="master.css">
+    <title>The Commute</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
     <script src="main.js"> </script>
   </head>
   <body>
-
-    <h1>life: 0</h1>
-    <h2 id="life">0</h2>
-
-
-    <div class="scene" id="s1">
-      <h1>title1 </h1>
-      <h3> lorem ipsum dolor sit amet</h3>
-      <!-- goes to scene 2 -->
-      <h2 id ="option1"> option 1</h2>
-      <!-- goes to scene 3 -->
-      <h2 id = "option2"> option 2 </h2>
+    <div class="scene frontpage">
+      <img src="play2.gif" id="play2" height="790px">
+    </div>
+    <div class="playbutton">
+        <img src="playbutton.png" id="b1" height="75px">
     </div>
 
-    <div class="scene" id="s2">
-      <h1>title 2</h1>
-      <h3> lorem ipsum dolor sit amet</h3>
-      <h2 id ="option3"> option 3</h2>
-      <h2 id = "option4"> option 4 </h2>
-    </div>
+  <!-- ALL AUDIO -->
+  <audio class="rooster" id="crow" controls preload="none">
+    <source src="roostercrow.mp3" type="audio/mpeg"> 
+  </audio>
 
-    <div class="scene" id="s3">
-      <h1>title 3</h1>
-      <h3> lorem ipsum dolor sit amet</h3>
-      <h2 id ="option5"> option 5</h2>
-      <h2 id = "option6"> option 6 </h2>
-    </div>
+  <audio class="scene circus" id="clown" controls preload="none">
+    <source src="circus.mp3" type="audio/mpeg"> 
+  </audio>
+
+  <audio class="scene HS1" id="adoreyou" controls preload="none">
+    <source src="adore you.mp3" type="audio/mpeg"> 
+  </audio>
+
+
+
+  <!-- scene 2 -->
+  <div class="scene wbpt">
+    <img src="choice1.gif" id="choice1" height="770px">
+    <img src="walk.png" id="w" height="150px">
+    <img src="bike.png" id="b" height="150px">
+    <img src="busstop.png" id="pt" height="150px">
+  </div>
+
+<!-- WALK BIKE PT -->
+
+  <!-- WALK ONE -->
+  <div class="scene walk1">
+    <img src="coffee.png" id="coffee" height="220px">
+    <img src="walkgirl.png" id="walkgirl" height="220px">
+  </div>
+
+<!-- BIKE ONE -->
+  <div class="scene bike1">
+    <img src="bike1.gif" height="770px">
+    <img src="whitewalk.png" id="w2" height="220px">
+    <img src="busstop.png" id="pt2" height="220px">
+  </div>
+
+<!-- BUS OR TRAIN -->
+  <div class="scene busortrain">
+    <img src="busortrain.gif" height="770px">
+    <img src="bus.png" id="bus" height="220px">
+    <img src="metro.png" id="metro" height="220px">
+  </div>
+
+<!-- WALK BIKE PT -->
+<div class="scene end1">
+  <img src="end1.gif" height="770px">
+  <img src="reset.png" class="reset" height="100px">
+</div>
+
+
+<div class="scene coffee1">
+  <img src="coffeeorder.gif" height="770px">
+  <img src="coffee.png" id="ilovec" height="220px">
+  <img src="heart.png" id="love" height="100px">
+</div>
+
+<div class="scene wallet">
+    <img src="wallet.gif" height="770px">
+    <img src="purse.png" id="purse" height="220px">
+    <img src="ignore1.png" id="ignore1" height="220px">
+</div>
+
+<div class="scene hs1">
+  <img src="hs1.gif" height="770px">
+  <img src="reset.png" class="reset" height="100px">
+</div>
 
 
 

@@ -1,34 +1,72 @@
 // variables are like a box, the following thing is the variable
-
-var life = 0;
-
-
 $(document).ready(function () {
 
-  $(".scene").hide();
-  $("#s1").show();
+// how to make it so that it shuts down any page it's on
 
-  $("#option1").click(function(){
-      $("#s1").hide();
-      $("#s2").show();
-      life = life +1;
-      $("#life").html(life);
-
-
+$("#b1").click(function(){
+  console.log("hellos");
+    $("#crow").trigger("play");
+    $(".frontpage").hide();
+    $(".wbpt").show();
   });
 
-  // var++ is the same as var=var +1
+  // WALK BIKE PT
 
+  $("#b").click(function(){
+      $(".wbpt").hide();
+      $(".bike1").show();
+    });
 
+  $("#w").click(function(){
+      $(".wbpt").hide();
+      $(".walk1").show();
+    });
 
-  $("#option2").click(function(){
-      $("#s1").hide();
-      $("#s3").show();
+    $("#pt").click(function(){
+        $(".wbpt").hide();
+        $(".busortrain").show();
+      });
 
+    // END OF WBPT
+
+  $("#walkgirl").click(function(){
+      $(".walk1").hide();
+      $(".end1").show();
+      $("#clown").get(0).play();
+    });
+
+$("#coffee").click(function(){
+    $(".walk1").hide();
+    $(".coffee1").show();
   });
+
+  $("#ilovec").click(function(){
+      $(".coffee1").hide();
+      $(".wallet").show();
+    });
+
+    $("#purse").click(function(){
+        $(".wallet").hide();
+        $(".hs1").show();
+        $("#adoreyou").get(0).play();
+      });
+
+
+      $("#w2").click(function(){
+          $(".bike1").hide();
+          $(".walk1").show();
+        });
+
+        $("#pt2").click(function(){
+            $(".bike1").hide();
+            $(".busortrain").show();
+          });
+
+          $(".reset").click(function(){
+            $(".scene").hide();
+            $(".frontpage").show();
+            $(".playbutton").show();
+          })
 
 
 });
-
-// . and # to call classes and // ids respectiviley
-// reads top to bottom, so whatever is at the top overrides what is below it

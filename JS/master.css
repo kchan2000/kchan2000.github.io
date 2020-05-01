@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.frontpage{
+  background-color: black;
+  text-align: center;
+  border: none;
+  z-index: -1;
+}
+
+.playbutton{
+  text-align: center;
+  z-index: 10;
+  margin-top: -130px;
+  margin-left: 15px;
+}
+
+#crow, #clown, #adoreyou{
+  display: none;
+}
+
+.wbpt{
+  text-align: center;
+  border: none;
+  margin-top: 15px;
+  display: none;
+}
+
+#w,#b,#pt {
+  margin: -500px 50px 0px 50px;
+}
+
+.walk1{
+  text-align: center;
+  display: none;
+  background-image:url("walk1.gif");
+  height: 770px;
+}
+
+
+#coffee, #walkgirl{
+    margin: 400px 80px 0px 80px;
+}
+
+#w2, #pt2{
+  margin: -2000px 80px 0px 80px;
+}
+
+#bus, #metro{
+  margin: -2000px 80px 0px 80px;
+}
+
+.bike1, .busortrain, .end1,.wallet {
+  text-align: center;
+  display: none;
+}
+
+.hs1, .coffee1 {
+  text-align: center;
+  display: none;
+  margin-top: 70px;
+}
+
+#ilovec{
+  text-align: center;
+  margin-top: -1000px;
+}
+
+#purse, #ignore1{
+  margin: -3000px 80px 0px 80px;
+}
+
+.reset{
+  text-align: right;
+}

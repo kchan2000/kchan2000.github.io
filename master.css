@@ -1,3 +1,16 @@
-.week7{
+
+#kc{
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 65px;
+
+}
+
+.weekly{
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
