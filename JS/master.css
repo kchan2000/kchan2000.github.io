@@ -17,8 +17,25 @@ body{
   margin-left: 15px;
 }
 
-#crow, #clown, #adoreyou, #tpwk{
+#crow, #clown, #adoreyou, #tpwk, #hspretty, #hsbusker, #hscat{
   display: none;
+}
+
+#endline{
+  display: block;
+  margin-top: -300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#gma, #zzz, #bird, #coin, #runningman, #cat {
+  position: absolute;
+  margin: 400px 80px 0px -800px;
+}
+
+#ignore2, #awake, #busagain, #womanrun, #bird2, #runningwoman {
+  position: absolute;
+  margin: 400px 80px 0px -400px;
 }
 
 .wbpt{
@@ -40,7 +57,7 @@ body{
 }
 
 
-#coffee, #walkgirl{
+#coffee, #walkgirl {
     margin: 400px 80px 0px 80px;
 }
 
@@ -48,15 +65,11 @@ body{
   margin: -2000px 80px 0px 80px;
 }
 
-#bus, #metro{
+#bus, #metro {
   margin: -2000px 80px 0px 80px;
 }
 
-#gma, #ignore2 {
-  margin
-}
-
-.bike1, .busortrain, .end1,.wallet, .burntongue, .seat{
+.bike1, .busortrain, .end1,.wallet, .burntongue, .seat, .hs2, .napornah, .nap, .awake, .busker, .hs3, .badend2, .birdvrun, .birdvcat, .hs4, .keeprunning, .birdbad{
   text-align: center;
   display: none;
 }
@@ -68,8 +81,10 @@ body{
 }
 
 #ilovec{
-  text-align: center;
-  margin-top: -1000px;
+  display: block;
+  margin-top: -300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #purse, #ignore1 {
@@ -77,5 +92,7 @@ body{
 }
 
 .reset{
-  text-align: right;
+  position: absolute;
+  margin-top: 670px;
+  margin-left: -100px;
 }

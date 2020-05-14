@@ -35,9 +35,92 @@ $("#b1").click(function(){
         $(".seat").show();
       });
 
+      $("#gma").click(function(){
+          $(".seat").hide();
+          $(".hs2").show();
+          $("#hspretty").get(0).play();
+        });
+
+    $("#ignore2").click(function(){
+        $(".seat").hide();
+        $(".badend2").show();
+          $("#tpwk").get(0).play();
+      });
 
 
-    // END OF WBPT
+  // TRAIN CHOICES
+      $("#metro").click(function(){
+          $(".busortrain").hide();
+          $(".napornah").show();
+        });
+
+      $("#zzz").click(function(){
+          $(".napornah").hide();
+          $(".nap").show();
+        });
+
+      $("#awake").click(function(){
+          $(".napornah").hide();
+          $(".awake").show();
+        });
+
+      $("#busagain").click(function(){
+          $(".awake").hide();
+          $(".seat").show();
+        });
+
+      $("#runningman").click(function(){
+          $(".awake").hide();
+          $(".busker").show();
+        });
+
+        $("#coin").click(function(){
+            $(".busker").hide();
+            $(".hs3").show();
+            $("#hsbusker").get(0).play();
+          });
+
+        $("#runningwoman").click(function(){
+            $(".busker").hide();
+            $(".keeprunning").show();
+            $("#tpwk").get(0).play();
+          });
+
+// ENDLINE CHOICES
+
+      $("#endline").click(function(){
+          $(".nap").hide();
+          $(".birdvrun").show();
+        });
+
+      $("#womanrun").click(function(){
+          $(".birdvrun").hide();
+          $(".busker").show();
+        });
+
+        $("#bird").click(function(){
+            $(".birdvrun").hide();
+            $(".birdvcat").show();
+          });
+
+        $("#bird2").click(function(){
+            $(".birdvcat").hide();
+            $(".birdbad").show();
+            $("#tpwk").get(0).play();
+          });
+
+
+
+
+        $("#cat").click(function(){
+            $(".birdvcat").hide();
+            $(".hs4").show();
+            $("#hscat").get(0).play();
+
+          });
+
+
+// WALK CHOICES
 
   $("#walkgirl").click(function(){
       $(".walk1").hide();
@@ -85,6 +168,7 @@ $("#coffee").click(function(){
             $(".scene").hide();
             $(".frontpage").show();
             $(".playbutton").show();
+            location.reload();
           })
 
 
