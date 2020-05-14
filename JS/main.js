@@ -22,10 +22,20 @@ $("#b1").click(function(){
       $(".walk1").show();
     });
 
+// BUS VS TRAIN
+
     $("#pt").click(function(){
         $(".wbpt").hide();
         $(".busortrain").show();
       });
+
+// BUS CHOICES
+    $("#bus").click(function(){
+        $(".busortrain").hide();
+        $(".seat").show();
+      });
+
+
 
     // END OF WBPT
 
@@ -40,17 +50,26 @@ $("#coffee").click(function(){
     $(".coffee1").show();
   });
 
+// COFFEE ORDER, CLICK COFFEE
+
   $("#ilovec").click(function(){
       $(".coffee1").hide();
       $(".wallet").show();
     });
 
+// COFFEE HS ENDING
     $("#purse").click(function(){
         $(".wallet").hide();
         $(".hs1").show();
         $("#adoreyou").get(0).play();
       });
 
+// COFFEE BAD ENDING
+    $("#ignore1").click(function(){
+        $(".wallet").hide();
+        $(".burntongue").show();
+        $("#tpwk").get(0).play();
+      });
 
       $("#w2").click(function(){
           $(".bike1").hide();
