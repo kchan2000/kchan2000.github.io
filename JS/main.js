@@ -4,11 +4,11 @@ $(document).ready(function () {
 // how to make it so that it shuts down any page it's on
 
 $("#b1").click(function(){
-  console.log("hellos");
-    $("#crow").trigger("play");
     $(".frontpage").hide();
     $(".wbpt").show();
+    $("#crow").trigger("play");
   });
+
 
   // WALK BIKE PT
 
@@ -170,6 +170,5 @@ $("#coffee").click(function(){
             $(".playbutton").show();
             location.reload();
           })
-
 
 });
